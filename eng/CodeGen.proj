@@ -82,7 +82,8 @@
           Projects="@(ProjectToBuild)"
           Targets="GenerateReferenceSource"
           SkipNonexistentTargets="true"
-          SkipNonexistentProjects="true" />
+          SkipNonexistentProjects="true"
+          Properties="BuildNodeJS=false" />
   </Target>
 
 </Project>
